@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/e92ce7b1c7.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="nav-item nav-link" href="#"
+          ><i class="navbar-brand fas fa-socks fa-3x"></i
+          ><span class="navbar-text"><b>Funky Socks</b></span></a
+        >
+        <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu"
+          ><i class="navbar-toggler-icon"></i
+        ></a>
+
+        <div class="navbar-collapse collapse" id="navbar-menu">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#home"><b>Home</b></a>
+
+            <div class="dropdown">
+              <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#projects"
+                ><b>Shop</b></a
+              >
+              <div class="dropdown-menu">
+                <h5 class="dropdown-header"><i class="fas fa-male "></i> Mens Socks</h5>
+                <a href="#projectAnchor" class="dropdown-item small">Trudeau socks </a>
+                <a href="#projectAnchor" class="dropdown-item small">Bert & Ernie</a>
+                <a href="#projectAnchor" class="dropdown-item small">Oscar & Cookie</a>
+                <a href="#projectAnchor" class="dropdown-item small">Batman socks</a>
+                <a href="#projectAnchor" class="dropdown-item small">Banana socks</a>
+
+                <div class="dropdown-divider"></div>
+
+                <h5 class="dropdown-header"><i class="fas fa-female"></i> Womens Socks</h5>
+                <a href="#projectAnchor" class="dropdown-item small">Carrot socks </a>
+                <a href="#projectAnchor" class="dropdown-item small">Never Fart</a>
+                <a href="#projectAnchor" class="dropdown-item small">Diva socks</a>
+                <a href="#projectAnchor" class="dropdown-item small">Canada socks</a>
+                <a href="#projectAnchor" class="dropdown-item small">Chicken socks</a>
+              </div>
+            </div>
+            <a class="nav-item nav-link" href="contact.html"
+              ><i class="fas fa-envelope"></i> <b>Contact</b></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--slider-->
+    <div class="carousel" id="mainSlide">
+      <div class="carousel-inner">
+        <img class="w-100 d-block" src="images/medium2.jpg" alt="" />
+      </div>
+    </div>
+
+    <!--content-->
+    <div class="container-fluid p-5">
+      <h1 id="projectAnchor">Men's Socks</h1>
+      <!--cards-->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="images/Justin.JPG" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Trudeau socks
+            </h5>
+            <p class="card-text">Feel like Prime Minister</p>
+            <a class="btn btn-sm btn-dark" href="#">500.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/Bert.JPG" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Bert & Ernie
+            </h5>
+            <p class="card-text">Be in the socks of your heros</p>
+            <a class="btn btn-sm btn-dark" href="#">15.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/cookie.JPG" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Cookie & Oscar Socks
+            </h5>
+            <p class="card-text">If you love cookies and trash</p>
+            <a class="btn btn-sm btn-dark" href="#">20.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/batman.JPG" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Batman Socks
+            </h5>
+            <p class="card-text">Become the Dark Knight</p>
+            <a class="btn btn-sm btn-dark" href="#">50.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/banana.JPG" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Banana socks
+            </h5>
+            <p class="card-text">Make your friends jealous by this cool sock</p>
+            <a class="btn btn-sm btn-dark" href="#">50.00$ CAD</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid p-5">
+      <h1 id="producrAnchor">Women's Socks</h1>
+      <!--cards-->
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="images/carrot.jpg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Carrot
+            </h5>
+            <p class="card-text">Feel like an actual carrot</p>
+            <a class="btn btn-sm btn-dark" href="#">5.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/fart.jpg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Never Fart
+            </h5>
+            <p class="card-text">Never again fart</p>
+            <a class="btn btn-sm btn-dark" href="#">30.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/diva.jfif" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Diva socks
+            </h5>
+            <p class="card-text">Become a diva</p>
+            <a class="btn btn-sm btn-dark" href="#">150.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/canadian.jpg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Canadian socks
+            </h5>
+            <p class="card-text">This is the best sock ever!</p>
+            <a class="btn btn-sm btn-dark" href="#">50.00$ CAD</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="images/chicken.jpeg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Chicken socks
+            </h5>
+            <p class="card-text">Get the chicken legs you deserve</p>
+            <a class="btn btn-sm btn-dark" href="#">100.00$ CAD</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid bg-dark text-center p-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <h6 class="text-secondary">Home</h6>
+          <hr />
+          <p>
+            <a href="#">Home</a>
+            <br /><a href="#">Products</a> <br /><a href="#">Contact</a>
+          </p>
+        </div>
+
+        <div class="col-sm-3">
+          <h6 class="text-secondary">Products</h6>
+          <hr />
+          <p>
+            <a href="#">Mens Socks</a>
+            <br /><a href="#">Womans Socks</a>
+          </p>
+        </div>
+
+        <div class="col-sm-3" id="contactAnchor">
+          <h6 class="text-secondary">Contact</h6>
+          <hr />
+          <p><i class="fas fa-envelope"></i> azafar21@myseneca.ca</p>
+          <p>
+            <i class="fas fa-camera"></i> instagram <br /><i class="fab fa-facebook-square"></i>
+            facebook <br /><i class="fab fa-twitter-square"></i> twitter <br /><i
+              class="fab fa-google-plus-square"
+            ></i>
+            google+
+          </p>
+        </div>
+      </div>
+      <div class="subForm">
+        <form
+  action="https://formspree.io/mwkrzqaw"
+  method="POST"
+>
+            <label class= "newsletter" for="email_">Subscribe to newsletter:</label><br>
+            <input style="width: 300px; margin-top: 15px; margin-right: 10px;" type="email"
+                placeholder="Enter your email address..." id="email_" name="email_" required>
+            <button type="submit" id="submit-btn" name="submit-btn">Subscribe</button>
+        </form>
+    </div>
+      <p class="center">Funky Socks &copy; 2020</p>
+    </footer>
+  </body>
+</html>
+
+<!--
+      Introduction
+      ------------
+
+      You are asked to create an online store in HTML, CSS, and JavaScript.
+      Please implement a store with all of the following requirements.
+
+      You may remove this comment and place all your HTML in this file.
+
+      Requirements:
+
+      1. Include a header across the top with your store's name, a logo,
+      and use a different background colour, web font, etc. Your header should
+      include info about what the store is, what it sells, etc.  Use some images
+      to try and draw the user in. NOTE: place all your site's images in the
+      `src/images/` directory.
+
+      2. Below the header, a multi-column layout of items you can purchase in the
+      store.  You must have at least 10 items in your store, and at least 2
+      categories of items. For example, if you are selling clothing, you might
+      have categories for Men, Women, and Children, and each category would have
+      its own set of items.  Each item should include:
+      
+        - a picture of the item
+        - the item's name or title
+        - a complete description of the item
+        - a category (i.e., each item must belong to one or more categories)
+        - a price in Canadian Dollars
+      
+      Each item should be its own "card" (i.e., some kind of box around each item
+      separating one from the next, with suitable whitespace between).
+
+      3. A category menu or "sidebar" (left, right, or top depending on your design)
+      showing the different categories of items in your store.  If a
+      user clicks on one of the categories, use CSS and JavaScript to hide all
+      other items in the store (i.e., only show items for the chosen category).
+      Make sure you include a way to return to seeing all categories, and make it
+      obvious to the user that they are only seeing a partial list of items when
+      you filter by category (i.e., use CSS and HTML to change things somehow).
+
+      4. Below the store items, a footer with the name of the store, any relevant
+      links you need to give users.  Include links and icons to any social media
+      for your store (Facebook, Twitter, etc). NOTE: you don't have to create such
+      accounts, but you can provide links to imaginary accounts.
+
+      5. Use at least two different Web Fonts for your store.  The titles should
+      be different from any regular text.  Use a free font service like
+      https://fonts.google.com/ or any other that you choose.  You can also
+      experiment with different font sizes and colours to draw attention toward
+      or away from various parts of your design.
+
+      6. Pick a colour theme using a tool like https://colorhunt.co/ with at least
+      3 colours (primary, secondary, accent), and use them throughout your site
+      for backgrounds, borders, fonts. Your store page needs to look attractive
+      and marks will be given for good a good looking site.  No one will buy from
+      a store that looks like its owners aren't professional or don't care about
+      details.  Also make sure that the colour contrast in your site is suitable
+      for everyone to read.
+
+      7. Use modern CSS to help you achieve your layout.  For example, Flexbox
+      and CSS Grid can help you create professional looking layouts.  Here
+      are some guides to get you started:
+
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+       
+      You are also welcome to use existing CSS libraries to help you with your layout,
+      but you must also include your own styles (i.e., you can't use a library
+      for everything in your design).
+
+      8. Make sure you don't use copyrighted materials from other sites.  If you use
+      icons, fonts, images, etc., make sure you are legally permitted to reuse them,
+      and include references to indicate where you got them. Some resources to consider:
+
+        - https://unsplash.com/ for images
+        - https://fontawesome.com/ for icons
+        - https://gallery.manypixels.co/ or https://undraw.co/illustrations for illustrations (SVG)
+
+      9. Make sure you reduce the download size of images you include in your
+      store.  Your images shouldn't be larger than 1M in size.  Users don't want to
+      download 10s or 100s of megabytes of data, especially on mobile.  You can use an
+      online tool like https://squoosh.app/ to help you reduce images.  You will
+      lose marks if your images aren't optimized for the web.
+
+      10. Make sure you have no JavaScript or other errors in your Dev Tools Console.
+      Run your site, and test all aspects of it with the Console open, and fix
+      any issues you encounter.
+
+      11. Make sure your code is properly indented and commented, and that you've used
+      good naming practices for variables, functions, ids, classes, etc.
+
+      12. Have fun!  Build something you'd be proud to show future employers in
+      interviews.  Take the time to properly design and implement a beautiful and
+      functional storefront.  Maybe it will inspire you to start your own online business?
+    -->
